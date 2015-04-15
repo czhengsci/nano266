@@ -63,5 +63,5 @@ def NH3_temp_build(base_set, Polarfunc_1st, Polarfunc_2nd, Polarfunc_3rd):
         f.write(NH3TEMPLATE.format(**p))
 
     #This is the nwchem call for calculation us NH3 template file generated above
-    os.system('nwchem NH3.nw > NH3.nwout')
+    # os.system('nwchem NH3.nw > NH3.nwout')
     # subprocess.call(command, shell=True)
