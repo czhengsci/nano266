@@ -90,8 +90,8 @@ def proc_dir(d, queue, name, verbosity, numnodes, ibswitch, walltime,InputFile):
         "verbosity": verbosity,
         "nnodes":numnodes,
         "ibswitch":ibswitch,
-        "InputFile":InputFile,
-        "OutputFile":OutputFile
+        "Input_File":InputFile,
+        "Output_File":OutputFile
     }
 
     if queue == "home":
