@@ -123,10 +123,10 @@ def proc_dir(d, queue, name, verbosity, numnodes, ibswitch, walltime,InputFile):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description="""
-        qsend is a convenient script for submitting jobs using templates on
-        TSCC. Currently mainly for VASP jobs.""",
+        nwchem_send is a convenient script for submitting jobs using templates on
+        TSCC. Currently mainly for nwchem jobs.""",
         epilog="""
-    Author: Shyue Ping Ong
+    Author: Chen Zheng
     Version: {}
     Last updated: {}""".format(__version__, __date__))
 
