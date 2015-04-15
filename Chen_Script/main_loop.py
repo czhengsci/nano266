@@ -37,13 +37,13 @@ if __name__=='__main__':
             #Create H2 folder, cd into folder and created H2 input set based on base_ele tree it is in
             os.mkdir('H2')
             os.chdir('H2')
-            H2_temp_build(base_ele)
+            H2_temp_build(base_ele,sub_folder_ele[0],sub_folder_ele[1],sub_folder_ele[2])
             os.chdir(subfolder)
 
             #Creat N2 folder, cd into folder and created N2 input set with current base_ele
             os.mkdir('N2')
             os.chdir('N2')
-            N2_temp_build(base_ele)
+            N2_temp_build(base_ele,sub_folder_ele[0],sub_folder_ele[1],sub_folder_ele[2])
             os.chdir(subfolder)
 
             #Create NH3 folder

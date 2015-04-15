@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import os, fnmatch,csv,re
 
 pjoin = os.path.join
