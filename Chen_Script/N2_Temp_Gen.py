@@ -22,50 +22,50 @@ basis
 end
 dft
  mult 1
- xc {base_set}
+ xc {functional_1st}
 end
 task dft optimize
 
 title "N2 dft freq"
 charge 0
 basis
- N library "{Polarfunc_2nd}"
+ N library "{Polarfunc_1st}"
 end
 dft
  mult 1
- xc {base_set}
+ xc {functional_1st}
 end
 task dft freq
 
 title "N2 dft energy"
 charge 0
 basis
- N library "{Polarfunc_3rd}"
+ N library "{Polarfunc_2nd}"
 end
 dft
  mult 1
- xc {base_set}
+ xc {functional_2nd}
 end
 task dft energy
 """
 
 
 # Function we used for N2_template file generate
-def N2_temp_build(base_set, Polarfunc_1st, Polarfunc_2nd, Polarfunc_3rd):
+def N2_temp_build(functional_1st,functional_2nd, Polarfunc_1st, Polarfunc_2nd):
 
 
     p = {
-        'base_set':base_set,
+        'functional_1st':functional_1st,
+        'functional_2nd':functional_2nd,
         'Polarfunc_1st':Polarfunc_1st,
         'Polarfunc_2nd':Polarfunc_2nd,
-        'Polarfunc_3rd':Polarfunc_3rd
     }
 
     with open('N2.nw','w') as f:
         f.write(N2TEMPLATE.format(**p))
 
     #This is the nwchem we call for calculation using N2 template file generated
-    # os.system('nwchem N2.nw > N2.nwout')
+    os.system('nwchem N2.nw > N2.nwout')
     # command = 'nwchem ' + 'N2.nw ' + '> N2.nwout'
     # subprocess.call(command,shell=True)
 

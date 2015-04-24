@@ -1,0 +1,15 @@
+memory total 1000 mb
+geometry units angstroms
+ N 0 0 0
+end
+
+title "N2 dft energy"
+charge 0
+basis
+ N library "6-311G"
+end
+dft
+ mult 4
+ xc b3lyp
+end
+task dft energy

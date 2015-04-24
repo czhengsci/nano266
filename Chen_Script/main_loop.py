@@ -2,26 +2,29 @@
 __author__ = 'chenzheng'
 
 import os
+from monty.os import cd
 import itertools
 from H2_Temp_Gen import H2_temp_build
 from N2_Temp_Gen import N2_temp_build
 from NH3_Temp_Gen import NH3_temp_build
 
-BASE_SET = ['HF','PBE','B3LYP']
-POLARIZATION_FUNC = [['6-31G','6-31+G*'],['6-31G','6-31+G*'],['6-311G','6-311+G*']]
+FUNCTIONALS = [['HFexch','xpbe96','B3LYP'],['HFexch','xpbe96','B3LYP']]
+POLARIZATION_FUNC = [['6-31+G*','6-311+G*'],['6-31+G*','6-311+G*']]
 POLAR_FUNC_FOLDER = list(itertools.product(*POLARIZATION_FUNC))
+FUNCTIONALS_FOLDER = list(itertools.product(*FUNCTIONALS))
 CWD = os.getcwd()
 
 if __name__=='__main__':
 
-    for base_ele in BASE_SET:
+    for functional_set in FUNCTIONALS_FOLDER:
 
-        #Make directory for each base_set and change into the base_set directory before next for loop
-        os.mkdir(base_ele)
-        os.chdir(base_ele)
+        #Make directory for each functional and change into the functional directory before next for loop
+        functional_foldername = '_'.join(functional_set)
+        os.mkdir(functional_foldername)
+        os.chdir(functional_foldername)
 
-        #Get the base_ele folder path for subfolder creation
-        base_ele_folder = os.getcwd()
+        #Get the functional folder path for subfolder creation
+        functional_folder = os.getcwd()
 
         for sub_folder_ele in POLAR_FUNC_FOLDER:
 
@@ -36,25 +39,31 @@ if __name__=='__main__':
 
             #Create H2 folder, cd into folder and created H2 input set based on base_ele tree it is in
             os.mkdir('H2')
-            os.chdir('H2')
-            H2_temp_build(base_ele,sub_folder_ele[0],sub_folder_ele[1],sub_folder_ele[2])
+
+            with cd('H2'):
+                H2_temp_build(functional_set[0],functional_set[1],\
+                              sub_folder_ele[0],sub_folder_ele[1])
+
             os.chdir(subfolder)
 
             #Creat N2 folder, cd into folder and created N2 input set with current base_ele
             os.mkdir('N2')
-            os.chdir('N2')
-            N2_temp_build(base_ele,sub_folder_ele[0],sub_folder_ele[1],sub_folder_ele[2])
+            with cd('N2'):
+                N2_temp_build(functional_set[0],functional_set[1],\
+                              sub_folder_ele[0],sub_folder_ele[1])
+
             os.chdir(subfolder)
 
             #Create NH3 folder
             os.mkdir('NH3')
-            os.chdir('NH3')
-            NH3_temp_build(base_ele,sub_folder_ele[0],sub_folder_ele[1],sub_folder_ele[2])
+            with cd('NH3'):
+                NH3_temp_build(functional_set[0],functional_set[1],\
+                               sub_folder_ele[0],sub_folder_ele[1])
 
             #Change back to the base folder where we keep all subfolder and continue to make next subfolder with similar sturcture
-            os.chdir(base_ele_folder)
+            os.chdir(functional_folder)
 
-        #After subfolder creating done, jump back to the initial folder where we keep all base_set folder
+        #After subfolder creating done, jump back to the initial folder where we keep all functional_set folder
         os.chdir(CWD)
 
 
