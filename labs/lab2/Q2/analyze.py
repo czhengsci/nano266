@@ -4,9 +4,6 @@ import re
 import sys
 import csv
 import argparse
-import logging
-
-
 
 
 # This defines the patterns for extracting relevant data from the output
@@ -20,31 +17,25 @@ patterns = {
 }
 
 
-def get_results(filename,debug):
+def get_results(filename):
     data = {}
-
-    if debug:
-        logging.basicConfig(level=logging.DEBUG)
-
     with open(filename) as f:
         for l in f:
             for k, p in patterns.items():
                 m = p.search(l)
-                logging.debug('The match patter is: {}'.format(m))
                 if m:
                     data[k] = float(m.group(1))
                     continue
     return data
 
 
-def analyze(filenames,debug):
-    # The unit of kinetic energy cutoff is Ry,
-    fieldnames = ['filename', 'ecut (Ry)', 'nkpts', 'alat', 'energy (Ry)','total_force']
+def analyze(filenames):
+    fieldnames = ['filename', 'ecut', 'nkpts', 'alat', 'energy','total_force']
     with open('results.csv', 'w') as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()
         for f in filenames:
-            r = get_results(f,debug)
+            r = get_results(f)
             r["filename"] = f
             writer.writerow(r)
     print("Results written to results.csv!")
@@ -56,9 +47,5 @@ if __name__ == "__main__":
     parser.add_argument(
         'filenames', metavar='filenames', type=str, nargs="+",
         help='Files to process. You may use wildcards, e.g., "python analyze.py *.out".')
-
-    parser.add_argument("-db", "--debug", dest="debug", action="store_true",
-                             help="Debug mode, provides information used for debug")
-
     args = parser.parse_args()
-    analyze(args.filenames,args.debug)
+    analyze(args.filenames)

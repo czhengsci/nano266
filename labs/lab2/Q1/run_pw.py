@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 """
-This is a very simple python starter script to viautomate a series of PWSCF
+This is a very simple python starter script to automate a series of PWSCF
 calculations. If you don't know Python, get a quick primer from the official
 Python documentation at https://docs.python.org/2.7/. The script is deliberately
 simple so that only basic Python syntax is used and you can get comfortable with
@@ -18,17 +18,15 @@ with open("Si.pw.in.template") as f:
     template = f.read()
 
 # Set default values for various parameters
-# k = 8 # k-point grid of 8x8x8
+k = 8 # k-point grid of 8x8x8
 ecut = 50 # In Ry
 alat = 10.26 # The lattice parameter for the cell in Bohr.
-ecut = 40 # Specify the energy cutoff to 40 in Question 2
 psp = "Si.pbe-n-kjpaw_psl.0.1.UPF"
 
 # Loop through a series of values of ecut. Note that ecut is stipulated in Ry
 # in PWSCF. Modify this accordingly to loop through either different values
 # of alat, k, ecut, etc.
-# for ecut in list(range(10,110,10)):
-for k in list(range(3,15,1)):
+for ecut in list(range(10,110,10)):
     # This generates a string from the template with the parameters replaced
     # by the specified values.
     s = template.format(alat=alat, k=k, ecut=ecut, pseudopotential=psp)
