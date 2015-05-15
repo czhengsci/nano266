@@ -53,3 +53,8 @@ docs/_build/
 # PyBuilder
 target/
 scratch
+
+#Personal datafile
+labs/lab3/Q1/*
+labs/lab3/Q2/*
+labs/lab3/Q3/*

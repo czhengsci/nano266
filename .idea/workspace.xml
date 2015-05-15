@@ -2,20 +2,104 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82baa27d-2032-4c0a-bf1c-37455e409005" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/Q1/BCC_Lattice_Para_Screening/BCC_template_gen_only.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/Q1/BCC_Lattice_Para_Screening/Fe.bcc.pw.in.template" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/Q1/BCC_Lattice_Para_Screening/Fe.hcp.pw.in.template" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe.hcp.pw.in.template" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/Q1/BCC_Lattice_Para_Screening/Fe.pbe-spn-kjpaw_psl.0.2.1.UPF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chen_Script/File_rename.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/HPC_template_gen_only.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chen_Script/analyze.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/Q1/BCC_Lattice_Para_Screening/analyze.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/Q1/BCC_Lattice_Para_Screening/run_pw.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labs/lab3/Q1/BCC_Screening/analyze.py" afterPath="$PROJECT_DIR$/labs/lab3/Q1/BCC_Screening/analyze.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Screening/analyze.py" afterPath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Screening/analyze.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/Q3/Prob_1/Ground_Au/Au.pbe-dn-rrkjus_psl.0.1.UPF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/Q3/Prob_1/Ground_Au/Au_template_gen_only.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/Q3/Prob_1/Ground_Cu/Cu.fcc.pw.in.template" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/Q3/Prob_1/Ground_Cu/Cu.pbe-dn-rrkjus_psl.0.2.UPF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/Q1/BCC_AntiFe/Fe.bcc.pw.in.template" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattice_K_Test_Around_Equ/HPC_template_gen_only.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattice_Screening_K_Point_10/HPC_template_gen_only.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/Q2/Prob_1/O.pbe-n-rrkjus_psl.0.1.UPF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/Q2/Prob_2/O.pbe-n-rrkjus_psl.0.1.UPF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/Q2/Prob_1/Pb.pbe-dn-rrkjus_psl.0.2.2.UPF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/Q2/Prob_2/Pb.pbe-dn-rrkjus_psl.0.2.2.UPF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/Q2/Prob_1/PbTiO3.pw.in.template" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/Q2/Prob_2/PbTiO3.pw.in.template" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/Q2/Prob_1/PbTiO3_template_gen_only.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/Q2/Prob_2/PbTiO3_template_gen_only.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/Q2/Prob_1/Ti.pbe-sp-van_ak.UPF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/Q2/Prob_2/Ti.pbe-sp-van_ak.UPF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattice_K_Test_Around_Equ/analyze.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/Q2/Prob_1/Outcome/analyze.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/Q3/Prob_1/Ground_Au/outcome/analyze.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/Q1/BCC_AntiFe/run_pw.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_3.2_172_9_5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_3.2_173_9_5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_3.2_174_9_5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_3.4_172_9_5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_3.4_173_9_5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_3.4_174_9_5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_3.6_172_9_5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_3.6_173_9_5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_3.6_174_9_5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_3.8_172_9_5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_3.8_173_9_5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_3.8_174_9_5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_4.1_172_9_5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_4.1_173_9_5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_4.1_174_9_5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_4.2_172_9_5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_4.2_173_9_5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_4.2_174_9_5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_4.3_172_9_5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_4.3_173_9_5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_4.3_174_9_5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_4.4_172_9_5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_4.4_173_9_5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_4.4_174_9_5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_4.5_172_9_5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_4.5_173_9_5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_4.5_174_9_5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_4.6_172_9_5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_4.6_173_9_5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_4.6_174_9_5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_4_172_9_5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_4_173_9_5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_4_174_9_5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_5.1_172_9_5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_5.1_173_9_5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_5.1_174_9_5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_5.2_172_9_5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_5.2_173_9_5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_5.2_174_9_5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_5.3_172_9_5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_5.3_173_9_5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_5.3_174_9_5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_5.4_172_9_5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_5.4_173_9_5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_5.4_174_9_5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_5.6_172_9_5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_5.6_173_9_5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_5.6_174_9_5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_5.8_172_9_5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_5.8_173_9_5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_5.8_174_9_5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_5_172_9_5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_5_173_9_5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_5_174_9_5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_6.2_172_9_5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_6.2_173_9_5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_6.2_174_9_5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_6.4_172_9_5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_6.4_173_9_5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_6.4_174_9_5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_6_172_9_5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_6_173_9_5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_6_174_9_5.out" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labs/lab3/Q1/Fe.bcc.pw.in.template" afterPath="$PROJECT_DIR$/labs/lab3/Q1/Fe.bcc.pw.in.template" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_4.7_172_9_5.out" afterPath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_4.7_172_9_5.out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_4.7_173_9_5.out" afterPath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_4.7_173_9_5.out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_4.7_174_9_5.out" afterPath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_4.7_174_9_5.out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_4.8_172_9_5.out" afterPath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_4.8_172_9_5.out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_4.8_173_9_5.out" afterPath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_4.8_173_9_5.out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_4.8_174_9_5.out" afterPath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_4.8_174_9_5.out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_4.9_172_9_5.out" afterPath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_4.9_172_9_5.out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_4.9_173_9_5.out" afterPath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_4.9_173_9_5.out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_4.9_174_9_5.out" afterPath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe_HCP_4.9_174_9_5.out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/HPC_template_gen_only.py" afterPath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/HPC_template_gen_only.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Lab3_Q1_HCP_Lattice_Hull.ipynb" afterPath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Lab3_Q1_HCP_Lattice_Hull.ipynb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labs/lab3/Q1/BCC_Screening/results.csv" afterPath="$PROJECT_DIR$/labs/lab3/Q1/BCC_Screening/results.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/results.csv" afterPath="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/results.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="nano266.iws" />
@@ -39,46 +123,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="analyze.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chen_Script/analyze.py">
+      <file leaf-file-name="PbTiO3_template_gen_only.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/labs/lab3/Q2/Prob_2/PbTiO3_template_gen_only.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="85" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="930">
+              <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="analyze.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/analyze.py">
+      <file leaf-file-name="PbTiO3.pw.in.template" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/labs/lab3/Q2/Prob_1/PbTiO3.pw.in.template">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
-              <caret line="35" column="91" selection-start-line="35" selection-start-column="91" selection-end-line="35" selection-end-column="91" />
+            <state vertical-scroll-proportion="0.6290957" vertical-offset="0" max-vertical-offset="763">
+              <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="14" />
               <folding />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HPC_template_gen_only.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/HPC_template_gen_only.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="945">
-              <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="110" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Fe.bcc.pw.in.template" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/labs/lab3/Q1/BCC_Lattice_Para_Screening/Fe.bcc.pw.in.template">
           <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
             <state />
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PbTiO3.pw.in.template" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/labs/lab3/Q2/Prob_2/PbTiO3.pw.in.template">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.10932945" vertical-offset="0" max-vertical-offset="686">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+            <state vertical-scroll-proportion="-10.096154" vertical-offset="0" max-vertical-offset="690">
+              <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
           </provider>
         </entry>
       </file>
@@ -116,14 +193,28 @@
         <option value="$PROJECT_DIR$/Chen_Script/File_rename.py" />
         <option value="$PROJECT_DIR$/labs/lab3/Q1/BCC_Screening/analyze.py" />
         <option value="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/analyze.py" />
+        <option value="$PROJECT_DIR$/labs/lab3/Q1/Fe.bcc.pw.in.template" />
+        <option value="$PROJECT_DIR$/labs/lab3/Q1/BCC_AntiFe/run_pw.py" />
+        <option value="$PROJECT_DIR$/labs/lab3/Q1/BCC_AntiFe/Fe.bcc.pw.in.template" />
         <option value="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/HPC_template_gen_only.py" />
+        <option value="$PROJECT_DIR$/labs/lab3/Q2/Prob_1/PbTiO3.pw.in.template" />
+        <option value="$PROJECT_DIR$/labs/lab3/Q3.py" />
+        <option value="$PROJECT_DIR$/labs/lab3/Q3/Prob_1/Ground_Au/Cu.fcc.pw.in.template" />
+        <option value="$PROJECT_DIR$/labs/lab3/Q3/Prob_1/Ground_Au/Au_template_gen_only.py" />
+        <option value="$PROJECT_DIR$/labs/lab3/Q3/Prob_1/Ground_Au/Au.fcc.pw.in.template" />
+        <option value="$PROJECT_DIR$/labs/lab3/Q3/Prob_1/Ground_Cu/Cu_template_gen_only.py" />
+        <option value="$PROJECT_DIR$/labs/lab3/Q3/Prob_1/Ground_Cu/Cu.fcc.pw.in.template" />
+        <option value="$PROJECT_DIR$/labs/lab3/Q2/Prob_1/Outcome/analyze.py" />
+        <option value="$PROJECT_DIR$/labs/lab3/Q2/Prob_1/PbTiO3_template_gen_only.py" />
+        <option value="$PROJECT_DIR$/labs/lab3/Q2/Prob_2/PbTiO3.pw.in.template" />
+        <option value="$PROJECT_DIR$/labs/lab3/Q2/Prob_2/PbTiO3_template_gen_only.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="83" />
-    <option name="width" value="1575" />
-    <option name="height" value="858" />
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="935" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -151,6 +242,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -219,7 +311,127 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Q1" />
+              <option name="myItemId" value="Q3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Prob_1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nano266" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nano266" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Q3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Prob_1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ground_Au" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nano266" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nano266" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Q3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Prob_1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ground_Au" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="outcome" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nano266" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nano266" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Q2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Prob_2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nano266" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nano266" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Q2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Prob_1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -242,86 +454,11 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Q1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HCP_Lattic_screening" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nano266" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nano266" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="labs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lab3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Q1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BCC_Lattice_Para_Screening" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nano266" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nano266" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="labs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lab3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Q1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BCC_Lattice_Para_Screening" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".ipynb_checkpoints" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nano266" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nano266" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Chen_Script" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -339,10 +476,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Chen_Script" />
-      <recent name="$PROJECT_DIR$/labs/lab3/Q1/BCC_Screening" />
-      <recent name="$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening" />
-      <recent name="$PROJECT_DIR$/labs/lab3/Q1/BCC_Lattice_Para_Screening" />
+      <recent name="$PROJECT_DIR$/labs/lab3/Q2/Prob_2" />
+      <recent name="$PROJECT_DIR$/labs/lab3/Q3/Prob_1/Ground_Au/outcome" />
+      <recent name="$PROJECT_DIR$/labs/lab3/Q2/Prob_1/Outcome" />
+      <recent name="$PROJECT_DIR$/labs/lab3/Q3/Prob_1/Ground_Cu" />
+      <recent name="$PROJECT_DIR$/labs/lab3/Q3/Prob_1/Ground_Au" />
     </key>
   </component>
   <component name="RunManager">
@@ -430,9 +568,6 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -454,6 +589,9 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -511,15 +649,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="83" width="1575" height="858" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="23" width="1680" height="935" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23874755" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22649573" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -527,11 +665,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -549,9 +687,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23874755" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -574,200 +712,14 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/labs/lab2/Q2/run_pw.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/labs/lab2/Q7/analyze.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="900">
-          <caret line="35" column="62" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/labs/lab2/Q7/Si.pw.in.template">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/labs/lab2/Q2/analyze.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="810">
-          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chen_Script/data_analysis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="210">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chen_Script/pattern_search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chen_Script/main_loop.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="1170">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chen_Script/filesearch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2700">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/labs/lab2/Si.pw.in.template">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.4615386" vertical-offset="0" max-vertical-offset="495">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/labs/lab2/Q3/analyze.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24970274" vertical-offset="0" max-vertical-offset="1050">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chen_Script/data_analysis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0466563" vertical-offset="0" max-vertical-offset="643">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chen_Script/pattern_search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="841">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/labs/lab2/Q7/run_pw.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52283657" vertical-offset="0" max-vertical-offset="832">
-          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/labs/lab2/Q2/analyze.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5949519" vertical-offset="0" max-vertical-offset="855">
-          <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/labs/lab2/Q7/analyze.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39170507" vertical-offset="0" max-vertical-offset="825">
-          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/labs/lab2/Q7/Si.pw.in.template">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="616">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/labs/lab2/run_pw.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16867469" vertical-offset="40" max-vertical-offset="870">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/labs/lab2/Q2/run_pw.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="859">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/labs/lab3/README.md">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9119879" vertical-offset="1260" max-vertical-offset="2610">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/labs/lab3/submit_script">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="724">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/labs/lab3/run_pw.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="41" max-vertical-offset="765">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/labs/lab3/Fe.bcc.pw.in.template">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="699">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/labs/lab3/Fe.hcp.pw.in.template">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="699">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/labs/lab3/Q1/Fe.hcp.pw.in.template">
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="699">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/labs/lab3/Q1/run_pw.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5890603" vertical-offset="0" max-vertical-offset="795">
-          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Chen_Script/main_loop.py">
@@ -799,73 +751,66 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/labs/lab3/Q1/HCP_Screening/Fe.hcp.pw.in.template">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.52238804" vertical-offset="0" max-vertical-offset="804">
           <caret line="28" column="45" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="45" />
-          <folding />
         </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/labs/lab3/Q1/BCC_Screening/results.csv">
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1035">
           <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
-          <folding />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/labs/lab3/Q1/BCC_Screening/Fe_bcc_5.46_13.out">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.41738066" vertical-offset="341" max-vertical-offset="7005">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/labs/lab3/Q1/HCP_Screening/Fe_HCP_5.4_172_6_3.pw.in">
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/labs/lab3/Q1/HCP_Screening/Fe.bcc.pw.in.template">
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/labs/lab3/Q1/HCP_Screening/Fe_HCP_5.46_174_7_4.pw.in">
       <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/lab3/Q1/HCP_Screening/Fe_HCP_5.46_174_7_4.pw.in">
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/labs/lab3/Q1/HCP_Screening/Fe_HCP_5.4_172_6_3.out">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.44308445" vertical-offset="193" max-vertical-offset="12510">
           <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -873,7 +818,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.24911033" vertical-offset="0" max-vertical-offset="843">
           <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -881,15 +825,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.519573" vertical-offset="147" max-vertical-offset="990">
           <caret line="43" column="32" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/labs/lab3/Q1/HCP_Screening/analyze.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5516014" vertical-offset="0" max-vertical-offset="843">
-          <caret line="34" column="65" selection-start-line="34" selection-start-column="65" selection-end-line="34" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -897,7 +832,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="843">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -905,15 +839,102 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
           <caret line="38" column="57" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/labs/lab3/Q1/BCC_Lattice_Para_Screening/BCC_template_gen_only.py">
+    <entry file="file://$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe.hcp.pw.in.template">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6283784" vertical-offset="0" max-vertical-offset="740">
-          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
-          <folding />
+        <state vertical-scroll-proportion="0.04373178" vertical-offset="0" max-vertical-offset="686">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chen_Script/File_rename.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28455284" vertical-offset="0" max-vertical-offset="738">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/lab3/Q1/BCC_Screening/analyze.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="840">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/lab3/Q1/BCC_Lattice_Para_Screening/Fe.bcc.pw.in.template">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10932945" vertical-offset="0" max-vertical-offset="686">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chen_Script/analyze.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/analyze.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="12" max-vertical-offset="855">
+          <caret line="35" column="91" selection-start-line="35" selection-start-column="91" selection-end-line="35" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/lab3/Q1/Fe.bcc.pw.in.template">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.50291544" vertical-offset="0" max-vertical-offset="686">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chen_Script/QE_send.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1286" max-vertical-offset="2970">
+          <caret line="51" column="98" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/lab3/Q1/BCC_AntiFe/Fe.bcc.pw.in.template">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26239067" vertical-offset="0" max-vertical-offset="686">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/lab3/Q1/BCC_AntiFe/run_pw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40650406" vertical-offset="0" max-vertical-offset="765">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/lab3/Q1/HCP_Screening/analyze.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6300813" vertical-offset="0" max-vertical-offset="840">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/HPC_template_gen_only.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="267" max-vertical-offset="1005">
+          <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -925,78 +946,218 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chen_Script/QE_send.py">
+    <entry file="file://$PROJECT_DIR$/labs/lab3/Q1/BCC_Lattice_Para_Screening/BCC_template_gen_only.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.62381595" vertical-offset="2231" max-vertical-offset="2970">
-          <caret line="118" column="4" selection-start-line="118" selection-start-column="4" selection-end-line="118" selection-end-column="43" />
+        <state vertical-scroll-proportion="0.63095236" vertical-offset="41" max-vertical-offset="735">
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattice_K_Test_Around_Equ/HPC_template_gen_only.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="975">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattice_Screening_K_Point_10/HPC_template_gen_only.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30656934" vertical-offset="60" max-vertical-offset="945">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="25" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/lab3/Q2/Prob_1/O.pbe-n-rrkjus_psl.0.1.UPF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="101130">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/lab3/Q1/run_pw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4773562" vertical-offset="0" max-vertical-offset="817">
+          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/lab3/Cu.fcc.pw.in.template">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="788">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/lab3/Fe.bcc.pw.in.template">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="585">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/lab3/Q1/Fe.hcp.pw.in.template">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="763">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/lab3/Au.pbe-dn-rrkjus_psl.0.1.UPF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="233865">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/lab3/Q3/Prob_1/Ground_Au/Au_template_gen_only.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6993865" vertical-offset="90" max-vertical-offset="975">
+          <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/lab3/Q3/Prob_1/Ground_Au/Au.fcc.pw.in.template">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1965924" vertical-offset="0" max-vertical-offset="763">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/lab3/Q3/Prob_1/Ground_Cu/Cu_template_gen_only.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.730769" vertical-offset="96" max-vertical-offset="975">
+          <caret line="29" column="41" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/lab3/Q3/Prob_1/Ground_Cu/Cu.fcc.pw.in.template">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.942307" vertical-offset="0" max-vertical-offset="645">
+          <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/lab3/Q3/Prob_1/Ground_Au/outcome/analyze.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/lab3/Q2/Prob_1/PbTiO3_template_gen_only.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22944786" vertical-offset="188" max-vertical-offset="1005">
+          <caret line="25" column="63" selection-start-line="25" selection-start-column="63" selection-end-line="25" selection-end-column="63" />
           <folding>
-            <element signature="e#322#331#0" expanded="true" />
+            <element signature="e#90#99#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/Fe.hcp.pw.in.template">
+    <entry file="file://$PROJECT_DIR$/labs/lab3/Q2/Prob_1/Outcome/analyze.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2392638" vertical-offset="0" max-vertical-offset="825">
+          <caret line="16" column="61" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/lab3/CuAu.scc.pw.in.template">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.60943645" vertical-offset="0" max-vertical-offset="763">
+          <caret line="31" column="2" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
       </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.04373178" vertical-offset="0" max-vertical-offset="686">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/lab3/Q2/Prob_1/Outcome/results.csv">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="788">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chen_Script/File_rename.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28455284" vertical-offset="0" max-vertical-offset="738">
-          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-          <folding>
-            <element signature="e#22#31#0" expanded="true" />
-          </folding>
-        </state>
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/labs/lab3/Q1/BCC_Screening/analyze.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="840">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+    <entry file="file://$PROJECT_DIR$/labs/lab3/Q3/Prob_1/Ground_Au/outcome/results.csv">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chen_Script/analyze.py">
+    <entry file="file://$PROJECT_DIR$/labs/lab3/Q2/Prob_2/PbTiO3.pw.in.template">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="85" />
+        <state vertical-scroll-proportion="-10.096154" vertical-offset="0" max-vertical-offset="690">
+          <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/analyze.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
-          <caret line="35" column="91" selection-start-line="35" selection-start-column="91" selection-end-line="35" selection-end-column="91" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/labs/lab3/Q1/HCP_Lattic_screening/HPC_template_gen_only.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="945">
-          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="110" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/labs/lab3/Q1/BCC_Lattice_Para_Screening/Fe.bcc.pw.in.template">
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/lab3/Q2/Prob_2/PbTiO3_template_gen_only.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10932945" vertical-offset="0" max-vertical-offset="686">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="930">
+          <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/lab3/Q2/Prob_1/PbTiO3.pw.in.template">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6290957" vertical-offset="0" max-vertical-offset="763">
+          <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
   </component>
